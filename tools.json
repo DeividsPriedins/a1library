@@ -1,1 +1,776 @@
-
+[
+  {
+    "name": "ChatGPT",
+    "description": "A versatile AI language model by OpenAI that engages in human-like conversation, assists with writing tasks, answers questions, and helps with creative content generation across multiple languages.",
+    "url": "https://chat.openai.com",
+    "category": "LLM",
+    "tags": ["conversational", "text generation", "content creation", "OpenAI", "writing", "research"],
+    "dateAdded": "2025-03-04",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Claude",
+    "description": "An advanced AI assistant by Anthropic that excels in natural conversation, document analysis, and creative content generation with enhanced capabilities for screen understanding and code generation.",
+    "url": "https://claude.ai",
+    "category": "LLM",
+    "tags": ["document analysis", "conversational", "Anthropic", "code assistance", "writing", "screen understanding"],
+    "dateAdded": "2025-01-17",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Deepseek",
+    "description": "A powerful AI model that rivals leading platforms like ChatGPT, offering advanced language understanding and generation capabilities at more accessible pricing, with strong performance in coding and technical domains.",
+    "url": "https://chat.deepseek.com",
+    "category": "LLM",
+    "tags": ["cost-effective", "coding", "technical", "language model", "alternative"],
+    "dateAdded": "2025-03-28",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Gemini",
+    "description": "Google's flagship AI model featuring multimodal capabilities to understand text, images, audio, and code, with versions optimized for different use cases from lightweight mobile applications to complex reasoning tasks.",
+    "url": "https://gemini.google.com",
+    "category": "LLM",
+    "tags": ["multimodal", "Google", "code generation", "image understanding", "reasoning"],
+    "dateAdded": "2025-02-12",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Mistral",
+    "description": "An EU-based AI company producing highly efficient large language models with state-of-the-art performance, offering both open-source and commercial options with strong multilingual capabilities.",
+    "url": "https://chat.mistral.ai",
+    "category": "LLM",
+    "tags": ["open-source", "multilingual", "EU-based", "efficient", "specialized models"],
+    "dateAdded": "2025-02-25",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Kimi",
+    "description": "A personalized AI assistant that adapts to individual user preferences and behaviors, offering increasingly tailored responses and support as it learns from interactions.",
+    "url": "https://kimi.ai",
+    "category": "LLM",
+    "tags": ["personalized", "adaptive", "conversational", "tailored responses", "learning"],
+    "dateAdded": "2025-03-21",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Manus",
+    "description": "An autonomous AI agent capable of executing complex, multi-step tasks from a single prompt, such as purchasing airline tickets or managing emails by interfacing directly with web services.",
+    "url": "https://manus.im/invitation/waitlist",
+    "category": "LLM",
+    "tags": ["autonomous agent", "task automation", "email management", "SaaS integration"],
+    "dateAdded": "2025-04-03",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "LG AI EXAONE",
+    "description": "An open-source large language model developed by LG, designed to power conversational AI applications with robust multilingual support and domain knowledge.",
+    "url": "https://github.com/LG-AI-EXAONE",
+    "category": "LLM",
+    "tags": ["open-source", "conversational", "LG", "enterprise", "multilingual"],
+    "dateAdded": "2025-02-08",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Reka",
+    "description": "A cutting-edge multimodal AI model that integrates diverse data types including text, images, and structured data to enhance reasoning and decision-making capabilities.",
+    "url": "https://www.reka.ai",
+    "category": "LLM",
+    "tags": ["multimodal", "reasoning", "decision-making", "content understanding"],
+    "dateAdded": "2025-03-17",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "GLM-4-32B",
+    "description": "A powerful large language model developed in China, featuring 32 billion parameters and strong capabilities across reasoning, writing, and multilingual understanding.",
+    "url": "https://z.ai",
+    "category": "LLM",
+    "tags": ["Chinese", "large language model", "reasoning", "writing", "multilingual"],
+    "dateAdded": "2025-01-15",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Lumalabs",
+    "description": "A text-to-video generation platform that transforms written descriptions into dynamic, high-quality videos with customizable styles and motion characteristics.",
+    "url": "https://lumalabs.ai/dream-machine",
+    "category": "Creative Tools",
+    "tags": ["text-to-video", "motion graphics", "creative", "animation", "content creation"],
+    "dateAdded": "2025-02-19",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Icon",
+    "description": "A professional AI video and marketing content generator that creates realistic video advertisements and promotional materials trusted by major brands for their compelling output.",
+    "url": "https://icon.me",
+    "category": "Creative Tools",
+    "tags": ["marketing videos", "advertising", "video generation", "realistic", "commercial use"],
+    "dateAdded": "2025-03-30",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Hedra",
+    "description": "An AI model specialized in generating animated talking characters from text or audio inputs, creating lifelike digital avatars for interactive media applications.",
+    "url": "https://www.hedra.ai",
+    "category": "Creative Tools",
+    "tags": ["animated characters", "talking avatars", "digital humans", "interactive media"],
+    "dateAdded": "2025-01-24",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Freepik AI",
+    "description": "A creative tool that transforms static images into short, high-quality videos, adding motion and dynamic elements to enhance visual storytelling.",
+    "url": "https://www.freepik.com/ai",
+    "category": "Creative Tools",
+    "tags": ["motion graphics", "image animation", "visual storytelling", "dynamic"],
+    "dateAdded": "2025-04-08",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Krea",
+    "description": "A high-fidelity AI image and video generation platform that creates visually stunning content from text prompts with advanced style control and customization options.",
+    "url": "https://www.krea.ai",
+    "category": "Creative Tools",
+    "tags": ["image generation", "video creation", "style control", "visual content"],
+    "dateAdded": "2025-02-27",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Magicpatterns",
+    "description": "An AI-powered prototyping tool that helps product teams rapidly build, test, and refine interface designs and user experiences with minimal coding requirements.",
+    "url": "https://www.magicpatterns.com",
+    "category": "3D & Design",
+    "tags": ["prototyping", "UI design", "user experience", "interface testing", "iteration"],
+    "dateAdded": "2025-03-12",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Webdraw",
+    "description": "An AI-powered web development assistant that helps create responsive websites from sketches or text descriptions, streamlining the design and implementation process.",
+    "url": "https://webdraw.com",
+    "category": "Web Development",
+    "tags": ["responsive design", "web creation", "UI/UX", "development assistance"],
+    "dateAdded": "2025-01-31",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Wrapifai",
+    "description": "An AI tool focused on SEO optimization and analytics, providing actionable insights to enhance website performance, visibility, and user engagement metrics.",
+    "url": "https://app.wrapifai.com",
+    "category": "Web Development",
+    "tags": ["SEO", "analytics", "website performance", "user engagement", "traffic analysis"],
+    "dateAdded": "2025-02-28",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Bolt",
+    "description": "A rapid website development platform that uses AI to transform text prompts into functional, professional-grade websites within hours, reducing development time and technical barriers.",
+    "url": "https://bolt.new",
+    "category": "Web Development",
+    "tags": ["rapid development", "text to website", "no-code", "quick deployment"],
+    "dateAdded": "2025-03-25",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Lovable",
+    "description": "A text-to-website conversion tool that allows users to describe their desired website in natural language and receive a fully functional implementation, simplifying web development.",
+    "url": "https://lovable.dev",
+    "category": "Web Development",
+    "tags": ["natural language", "text to website", "no-code", "simplification"],
+    "dateAdded": "2025-04-09",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Softgen",
+    "description": "An AI-powered web development platform that converts natural language prompts into complete, functional websites with responsive designs and modern features.",
+    "url": "https://softgen.ai",
+    "category": "Web Development",
+    "tags": ["website generation", "prompt to website", "responsive design", "modern features"],
+    "dateAdded": "2025-01-22",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Same",
+    "description": "A website replication tool that creates pixel-perfect copies of existing websites, facilitating design consistency across platforms and accelerating development processes.",
+    "url": "https://same.new",
+    "category": "Web Development",
+    "tags": ["website replication", "design consistency", "cloning", "pixel-perfect"],
+    "dateAdded": "2025-02-14",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "v0",
+    "description": "Vercel's AI-powered web development tool that generates React components and complete interfaces from text descriptions, allowing rapid prototyping and development of Tailwind CSS-styled websites.",
+    "url": "https://v0.dev",
+    "category": "Web Development",
+    "tags": ["React", "Tailwind CSS", "UI generation", "Vercel", "component generation"],
+    "dateAdded": "2025-03-07",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Canva Code Generator",
+    "description": "An upcoming AI tool from Canva that generates functional code from design specifications, similar to v0.dev, bridging the gap between design and implementation.",
+    "url": "https://www.canva.com/ai-code-generator",
+    "category": "Web Development",
+    "tags": ["design to code", "frontend", "development bridge", "implementation"],
+    "dateAdded": "2025-04-11",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Firebase Studio",
+    "description": "A full-stack development workspace optimized for AI-powered application creation, offering integrated tools for front-end, back-end, and model management.",
+    "url": "https://firebase.studio",
+    "category": "Web Development",
+    "tags": ["full-stack", "AI-powered", "workspace", "backend", "frontend"],
+    "dateAdded": "2025-01-27",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Replit",
+    "description": "A collaborative, browser-based development environment that allows users to write, run, and deploy code in 50+ programming languages, with integrated AI coding assistance.",
+    "url": "https://replit.com",
+    "category": "Development Tools",
+    "tags": ["collaborative coding", "cloud IDE", "deployment", "multiple languages"],
+    "dateAdded": "2025-02-23",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "IDX by Google",
+    "description": "A cloud-based development environment by Google that enables building and deploying applications directly from a browser, with built-in AI assistance and integration with Google services.",
+    "url": "https://idx.google.com",
+    "category": "Development Tools",
+    "tags": ["browser development", "cloud coding", "Google", "application building"],
+    "dateAdded": "2025-03-19",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Auth0",
+    "description": "A comprehensive identity platform providing authentication and authorization services for AI-generated applications, ensuring secure user access and identity management.",
+    "url": "https://auth0.com",
+    "category": "Development Tools",
+    "tags": ["authentication", "authorization", "identity management", "security"],
+    "dateAdded": "2025-04-01",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Cursor",
+    "description": "An AI-enhanced code editor built on Visual Studio Code that features intelligent code completion, natural language codebase navigation, and smart context-aware suggestions to boost developer productivity.",
+    "url": "https://www.cursor.com",
+    "category": "Development Tools",
+    "tags": ["AI code completion", "VS Code", "code navigation", "smart suggestions"],
+    "dateAdded": "2025-01-20",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Windsurf",
+    "description": "An AI-powered code editor designed to maintain developer flow states with features like instant autocompletion, deep context awareness, and error correction directly within the terminal environment.",
+    "url": "https://codeium.com/windsurf",
+    "category": "Development Tools",
+    "tags": ["coding editor", "terminal", "autocompletion", "error correction", "flow state"],
+    "dateAdded": "2025-02-16",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Play",
+    "description": "An intuitive platform for building iOS applications using a visual interface and AI assistance, enabling app creation without extensive coding knowledge.",
+    "url": "https://createwithplay.com",
+    "category": "Development Tools",
+    "tags": ["iOS app creation", "visual interface", "mobile development", "no-code"],
+    "dateAdded": "2025-03-10",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Rork",
+    "description": "A mobile app development platform that combines AI capabilities with React Native to streamline the creation of cross-platform mobile applications from simple descriptions.",
+    "url": "https://rork.app",
+    "category": "Development Tools",
+    "tags": ["React Native", "mobile apps", "cross-platform", "development"],
+    "dateAdded": "2025-04-15",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Graphite",
+    "description": "An AI-powered code review and quality assurance tool that automatically identifies bugs, security vulnerabilities, and performance issues before they reach production.",
+    "url": "https://graphite.dev",
+    "category": "Development Tools",
+    "tags": ["code review", "quality assurance", "bug detection", "security"],
+    "dateAdded": "2025-01-18",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Devin",
+    "description": "An autonomous AI software engineer that can understand, plan, and execute entire software projects, featuring parallel task execution capabilities and an agent-native IDE experience.",
+    "url": "https://app.devin.ai",
+    "category": "Development Tools",
+    "tags": ["autonomous coding", "software engineering", "project management", "IDE"],
+    "dateAdded": "2025-03-02",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "OpenAI Codex",
+    "description": "A lightweight coding agent built on OpenAI's technology, designed to run within a developer's terminal environment, providing context-aware code assistance.",
+    "url": "https://github.com/openai/codex",
+    "category": "Development Tools",
+    "tags": ["coding agent", "terminal", "context-aware", "programming assistance"],
+    "dateAdded": "2025-02-05",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Warp",
+    "description": "A modern terminal with integrated AI assistance that enhances command-line productivity through intelligent suggestions, command history search, and contextual help.",
+    "url": "https://www.warp.dev/download",
+    "category": "Development Tools",
+    "tags": ["terminal", "command suggestions", "productivity", "shell enhancement"],
+    "dateAdded": "2025-04-07",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Repo Prompt",
+    "description": "A developer tool that structures AI prompts specifically for code repositories and automatically applies suggested changes, streamlining the coding workflow.",
+    "url": "https://repoprompt.com",
+    "category": "Development Tools",
+    "tags": ["code repository", "prompt structuring", "automatic changes", "workflow"],
+    "dateAdded": "2025-01-31",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "a0.dev",
+    "description": "A platform specializing in AI-assisted mobile application development, enabling rapid prototyping and implementation of iOS and Android apps from simple descriptions.",
+    "url": "https://a0.dev",
+    "category": "Development Tools",
+    "tags": ["mobile development", "rapid prototyping", "iOS", "Android"],
+    "dateAdded": "2025-03-14",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Pydoll",
+    "description": "A Python library that automates browser interactions without requiring traditional webdrivers, simplifying web automation through a clean, intuitive API.",
+    "url": "https://github.com/autoscrape-labs/pydoll",
+    "category": "Development Tools",
+    "tags": ["browser automation", "Python", "web interaction", "scraping"],
+    "dateAdded": "2025-02-22",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Continue",
+    "description": "A developer tool that allows creation of personalized AI coding assistants, enhancing productivity through context-aware suggestions and automated task completion.",
+    "url": "https://www.continue.dev",
+    "category": "Development Tools",
+    "tags": ["coding assistant", "personalized", "task automation", "context-aware"],
+    "dateAdded": "2025-04-03",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "DiFy",
+    "description": "An open-source platform for building AI applications with comprehensive workflows, RAG pipelines, agent capabilities, and performance monitoring features.",
+    "url": "https://github.com/langgenius/dify",
+    "category": "Development Tools",
+    "tags": ["open-source", "RAG", "AI applications", "agents", "monitoring"],
+    "dateAdded": "2025-01-29",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "DSPy",
+    "description": "A declarative framework for creating modular AI systems that separates prompting logic from execution, enabling more maintainable and composable language model applications.",
+    "url": "https://dspy.ai",
+    "category": "Development Tools",
+    "tags": ["declarative framework", "modular", "prompt engineering", "composable systems"],
+    "dateAdded": "2025-03-06",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Mastra",
+    "description": "An open-source JavaScript framework for building autonomous AI agents with customizable behaviors and integration capabilities for various applications.",
+    "url": "https://mastra.ai",
+    "category": "Development Tools",
+    "tags": ["JavaScript", "agents", "framework", "autonomous", "integration"],
+    "dateAdded": "2025-01-15",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Convergence",
+    "description": "An AI agent platform that automates tasks by securely logging into SaaS applications and executing complex workflows on behalf of users, streamlining business operations.",
+    "url": "https://proxy.convergence.ai",
+    "category": "AI Agents",
+    "tags": ["SaaS automation", "workflow execution", "business operations", "login"],
+    "dateAdded": "2025-02-18",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Cohere",
+    "description": "An enterprise AI platform providing multilingual language models, advanced information retrieval, and a comprehensive AI workspace tailored for modern business intelligence applications.",
+    "url": "https://cohere.com",
+    "category": "AI Agents",
+    "tags": ["business intelligence", "multilingual", "information retrieval", "enterprise"],
+    "dateAdded": "2025-04-13",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Harvey",
+    "description": "A specialized AI platform designed for legal professionals that automates document review, contract analysis, and legal research, enhancing service delivery for law firms.",
+    "url": "https://www.harvey.ai",
+    "category": "AI Agents",
+    "tags": ["legal AI", "document review", "contract analysis", "legal research"],
+    "dateAdded": "2025-01-23",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Neural",
+    "description": "A versatile platform for creating and deploying custom AI agents across various business functions, enabling tailored automation solutions for specific organizational needs.",
+    "url": "https://www.neural.org",
+    "category": "AI Agents",
+    "tags": ["custom AI agents", "business automation", "tailored solutions"],
+    "dateAdded": "2025-03-09",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "SmoothOperator",
+    "description": "An AI control system that enables autonomous management of PC tasks without manual intervention, creating seamless automation for routine computer operations.",
+    "url": "https://smooth-operator.online",
+    "category": "AI Agents",
+    "tags": ["PC automation", "task management", "desktop control", "autonomous"],
+    "dateAdded": "2025-02-27",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "BrowserUse",
+    "description": "A platform that connects AI agents to web browsers, allowing them to navigate websites, fill forms, and perform complex web-based tasks autonomously.",
+    "url": "https://browser-use.com",
+    "category": "AI Agents",
+    "tags": ["browser automation", "web tasks", "form filling", "navigation"],
+    "dateAdded": "2025-04-05",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Genspark",
+    "description": "A versatile AI superagent that can reason, plan, and execute everyday tasks using direct API connections instead of virtual machines, streamlining automation workflows.",
+    "url": "https://www.genspark.ai",
+    "category": "AI Agents",
+    "tags": ["superagent", "API connections", "task execution", "planning"],
+    "dateAdded": "2025-01-21",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Lindy",
+    "description": "A no-code platform for building custom AI agents that automate business workflows, saving time and resources by handling repetitive tasks autonomously.",
+    "url": "https://www.lindy.ai",
+    "category": "AI Agents",
+    "tags": ["no-code", "workflow automation", "business processes", "task handling"],
+    "dateAdded": "2025-03-28",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Operator",
+    "description": "A transparent AI tool that visually demonstrates how AI agents navigate the web, providing step-by-step visibility into browsing behaviors for education and development purposes.",
+    "url": "https://operator.browserbase.com",
+    "category": "AI Agents",
+    "tags": ["transparent AI", "browsing demonstration", "step-by-step", "education"],
+    "dateAdded": "2025-02-10",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Abacus",
+    "description": "A comprehensive AI assistant platform supporting chat, code generation, voice interaction, image creation, and video processing in a unified interface.",
+    "url": "https://abacus.ai",
+    "category": "AI Agents",
+    "tags": ["comprehensive assistant", "multimodal", "chat", "code", "content creation"],
+    "dateAdded": "2025-04-17",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Flowith",
+    "description": "A visual thinking environment that integrates AI agents to enhance creative problem-solving and collaborative ideation through interactive diagrams and workflows.",
+    "url": "https://flowith.io/blank",
+    "category": "AI Agents",
+    "tags": ["visual thinking", "collaboration", "problem-solving", "ideation"],
+    "dateAdded": "2025-01-19",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Futurehouse",
+    "description": "A platform hosting specialized AI agents and models designed to accelerate scientific research across disciplines through automated experimentation and analysis.",
+    "url": "https://platform.futurehouse.org/login",
+    "category": "AI Agents",
+    "tags": ["scientific research", "experimentation", "analysis", "specialized agents"],
+    "dateAdded": "2025-03-11",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Fellou",
+    "description": "The first fully agentic web browser that uses AI to navigate online environments and perform complex tasks autonomously based on natural language instructions.",
+    "url": "https://fellou.ai",
+    "category": "AI Agents",
+    "tags": ["agentic browser", "autonomous navigation", "web automation", "natural language"],
+    "dateAdded": "2025-02-25",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Pyspur",
+    "description": "A dedicated playground and development platform for building and testing AI agent workflows, offering visual interfaces and debugging tools for complex agent systems.",
+    "url": "https://www.pyspur.dev",
+    "category": "AI Agents",
+    "tags": ["agent workflows", "development platform", "debugging", "visual interfaces"],
+    "dateAdded": "2025-04-09",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "MCPify",
+    "description": "A no-code platform for building Model Context Protocol servers, allowing users to create custom AI agent connections without programming expertise.",
+    "url": "https://mcpify.ai",
+    "category": "Integration",
+    "tags": ["MCP servers", "no-code", "agent connections", "protocol"],
+    "dateAdded": "2025-01-26",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Firecrawl",
+    "description": "A web scraping extension for AI platforms like Cursor and Claude, enhancing their capabilities by enabling them to extract and process information from websites.",
+    "url": "https://github.com/mendableai/firecrawl",
+    "category": "Integration",
+    "tags": ["web scraping", "information extraction", "LLM enhancement", "data collection"],
+    "dateAdded": "2025-03-03",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Stagehand",
+    "description": "A browser MCP server that creates and manages browser sessions, allowing AI assistants to navigate websites and perform actions within web environments.",
+    "url": "https://docs.stagehand.dev/integrations/mcp-server",
+    "category": "Integration",
+    "tags": ["browser sessions", "MCP server", "web actions", "navigation"],
+    "dateAdded": "2025-02-14",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Opik",
+    "description": "A monitoring and traceability tool for AI agents that provides visibility into LLM application performance, helping developers track and optimize AI behavior.",
+    "url": "https://github.com/comet-ml/opik?es_id=a8089f7ec9",
+    "category": "Integration",
+    "tags": ["monitoring", "traceability", "LLM performance", "agent behavior"],
+    "dateAdded": "2025-04-02",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Brave",
+    "description": "An implementation that enables AI assistants to automate Brave search queries and process results programmatically through the Model Context Protocol.",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search",
+    "category": "Integration",
+    "tags": ["search automation", "query processing", "results handling", "information retrieval"],
+    "dateAdded": "2025-01-15",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Zapier",
+    "description": "A Model Context Protocol integration that allows AI assistants to interact with thousands of applications without complex API integrations, expanding automation capabilities.",
+    "url": "https://zapier.com/mcp",
+    "category": "Integration",
+    "tags": ["multi-app integration", "workflow automation", "thousands of apps", "no-code"],
+    "dateAdded": "2025-03-20",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "MCP Boilerplate",
+    "description": "A starter template for Model Context Protocol implementations, designed for developers building AI agent integrations with simplified architecture patterns.",
+    "url": "https://mcpboilerplate.com",
+    "category": "Integration",
+    "tags": ["starter template", "implementation patterns", "agent integration", "development"],
+    "dateAdded": "2025-02-08",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Intellectia",
+    "description": "An intelligent investment platform that generates AI-driven trading signals for stocks and cryptocurrencies, helping investors make data-informed decisions.",
+    "url": "https://intellectia.ai/?channelId=4&activityId=100",
+    "category": "Finance",
+    "tags": ["investment signals", "stock analysis", "cryptocurrency", "trading"],
+    "dateAdded": "2025-04-14",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "TrendSpider",
+    "description": "A technical analysis platform that uses AI to develop and backtest custom trading strategies, identifying patterns and predicting market movements.",
+    "url": "https://trendspider.com/product/artificial-intelligence-ai-trading-strategy-lab",
+    "category": "Finance",
+    "tags": ["trading strategies", "backtesting", "pattern identification", "market prediction"],
+    "dateAdded": "2025-01-17",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "MenthorQ",
+    "description": "A comprehensive AI-powered trading platform offering advanced models, market analytics, and seamless integrations specifically optimized for options trading.",
+    "url": "https://menthorq.com",
+    "category": "Finance",
+    "tags": ["options trading", "market analytics", "trading models", "decision support"],
+    "dateAdded": "2025-03-29",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "StockGeist",
+    "description": "A market sentiment analysis platform that uses AI to track and visualize public opinion across social media and news sources to inform investment decisions.",
+    "url": "https://www.stockgeist.ai",
+    "category": "Finance",
+    "tags": ["sentiment analysis", "social media tracking", "market sentiment", "investment"],
+    "dateAdded": "2025-02-01",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Kavout",
+    "description": "An advanced AI and machine learning system that evaluates stocks and cryptocurrencies based on multiple data points to generate investment insights.",
+    "url": "https://www.kavout.com",
+    "category": "Finance",
+    "tags": ["stock evaluation", "cryptocurrency analysis", "investment insights", "machine learning"],
+    "dateAdded": "2025-03-15",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Numar.ai",
+    "description": "A platform that applies sophisticated machine learning models to financial markets, enabling quantitative trading strategies with robust backtesting capabilities.",
+    "url": "https://numer.ai",
+    "category": "Finance",
+    "tags": ["quantitative trading", "machine learning", "financial markets", "backtesting"],
+    "dateAdded": "2025-02-19",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Sentifi",
+    "description": "An AI-powered cryptocurrency market intelligence platform that aggregates and analyzes market data to provide actionable insights for crypto investors.",
+    "url": "https://www.sentifi.co",
+    "category": "Finance",
+    "tags": ["crypto intelligence", "market data", "cryptocurrency insights", "investor information"],
+    "dateAdded": "2025-04-06",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Tensortrade",
+    "description": "An open-source Python framework for developing, testing, and deploying trading algorithms using reinforcement learning and other AI techniques, designed for cryptocurrency and traditional markets.",
+    "url": "https://www.tensortrade.org/en/latest",
+    "category": "Finance",
+    "tags": ["trading algorithms", "reinforcement learning", "strategy development", "Python"],
+    "dateAdded": "2025-01-28",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Vidwud",
+    "description": "An AI presentation creator that transforms text inputs into professional business presentations within minutes, complete with graphics and formatting.",
+    "url": "https://www.vidwud.com/?insur=opera_summer_tw_Shipon_202503",
+    "category": "Productivity",
+    "tags": ["presentation creation", "business slides", "quick formatting", "professional"],
+    "dateAdded": "2025-03-22",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Scribe",
+    "description": "An AI documentation automation tool that observes workflows and automatically generates step-by-step guides with screenshots, eliminating manual documentation effort.",
+    "url": "https://scribehow.com/scribe-ai",
+    "category": "Productivity",
+    "tags": ["documentation automation", "workflow guides", "process documentation", "screenshot"],
+    "dateAdded": "2025-02-12",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Julius AI",
+    "description": "A specialized data analysis assistant that combines Excel, Python, and conversational AI capabilities to solve complex mathematical and data challenges.",
+    "url": "https://julius.ai",
+    "category": "Productivity",
+    "tags": ["data analysis", "Excel", "Python", "mathematical", "computation"],
+    "dateAdded": "2025-04-10",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Paperfinder",
+    "description": "A specialized research paper search tool that helps academics and researchers discover, filter, and analyze scientific literature efficiently.",
+    "url": "https://paperfinder.allen.ai/chat",
+    "category": "Productivity",
+    "tags": ["research papers", "academic search", "scientific literature", "discovery"],
+    "dateAdded": "2025-01-11",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "SuperWhisper",
+    "description": "A powerful voice-to-text transcription tool built on OpenAI's Whisper model, optimized for MacOS with Windows support in development, offering high-accuracy speech recognition.",
+    "url": "https://superwhisper.com",
+    "category": "Productivity",
+    "tags": ["voice-to-text", "transcription", "MacOS", "speech recognition"],
+    "dateAdded": "2025-03-05",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Corca",
+    "description": "A collaborative mathematics platform powered by AI that enables users to solve complex problems together, visualize mathematical concepts, and receive step-by-step explanations.",
+    "url": "https://corca.app",
+    "category": "Productivity",
+    "tags": ["mathematics", "problem-solving", "visualization", "educational", "collaboration"],
+    "dateAdded": "2025-02-09",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "ShumerPrompt",
+    "description": "A community-driven platform for discovering, sharing, and iterating on powerful AI prompts, enabling users to leverage collective expertise for optimal AI interactions.",
+    "url": "https://shumerprompt.com",
+    "category": "Productivity",
+    "tags": ["prompt sharing", "community platform", "prompt discovery", "optimization"],
+    "dateAdded": "2025-04-04",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Olmocr",
+    "description": "A specialized toolkit for training AI models to accurately read and interpret PDF documents, excelling at complex layouts and document understanding tasks.",
+    "url": "https://github.com/allenai/olmocr",
+    "category": "Productivity",
+    "tags": ["PDF reading", "document interpretation", "OCR", "document understanding"],
+    "dateAdded": "2025-01-31",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "SmartPDF",
+    "description": "An AI-powered document analysis tool that automatically summarizes PDF content, extracting key information and insights from lengthy technical or business documents.",
+    "url": "https://www.smartpdfs.ai",
+    "category": "Productivity",
+    "tags": ["document summarization", "information extraction", "content insights", "PDF analysis"],
+    "dateAdded": "2025-03-13",
+    "addedBy": "a1-library-admin"
+  },
+  {
+    "name": "Listenlabs",
+    "description": "An automated user research platform that conducts AI-driven interviews, transcribes responses, and provides structured analysis of customer feedback.",
+    "url": "https://listenlabs.ai",
+    "category": "Productivity",
+    "tags": ["user research", "automated interviews", "feedback analysis", "customer insights"],
+    "dateAdded": "2025-02-20",
+    "addedBy": "ai-curator"
+  },
+  {
+    "name": "Nari Labs (DIA)",
+    "description": "A text-to-speech model capable of generating ultra-realistic spoken dialogue with natural intonation, emotion, and conversational nuances for various applications.",
+    "url": "https://github.com/nari-labs/dia",
+    "category": "Productivity",
+    "tags": ["text-to-speech", "realistic dialogue", "voice synthesis", "spoken content"],
+    "dateAdded": "2025-04-16",
+    "addedBy": "tech-librarian"
+  },
+  {
+    "name": "Pine",
+    "description": "An advanced AI communication tool that can place phone calls and conduct natural conversations on behalf of users, handling appointments, inquiries, and other voice interactions.",
+    "url": "https://www.19pine.ai",
+    "category": "Productivity",
+    "tags": ["AI calls", "phone conversations", "appointment handling", "voice interactions"],
+    "dateAdded": "2025-01-14",
+    "addedBy": "ai-researcher"
+  },
+  {
+    "name": "Findappgaps",
+    "description": "An AI-powered analytics tool that scans user feedback to identify opportunities for new features and product improvements, prioritizing development based on user needs.",
+    "url": "https://www.findappgaps.com",
+    "category": "Productivity",
+    "tags": ["feature discovery", "user feedback", "product improvement", "analytics"],
+    "dateAdded": "2025-03-27",
+    "addedBy": "tool-collector"
+  },
+  {
+    "name": "Toolfolio",
+    "description": "A comprehensive collection of AI tools, design resources, and development utilities organized in a single platform for creative and technical professionals.",
+    "url": "https://toolfolio.io",
+    "category": "Productivity",
+    "tags": ["tool collection", "resource organization", "design utilities", "development resources"],
+    "dateAdded": "2025-02-04",
+    "addedBy": "a1-library-admin"
+  }
+]
