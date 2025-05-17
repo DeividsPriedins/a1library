@@ -7,6 +7,15 @@
     "tags": ["conversational", "text generation", "content creation", "OpenAI", "writing", "research"],
     "dateAdded": "2025-03-04",
     "addedBy": "a1-library-admin"
+  },  
+  {
+    "name": "Example",
+    "description": "exaaaaaaaaaaaample.",
+    "url": "https://example.com",
+    "category": "LLM",
+    "tags": ["conversational", "text generation", "content creation", "OpenAI", "writing", "research"],
+    "dateAdded": "2025-05-17",
+    "addedBy": "example"
   },
   {
     "name": "Claude",
