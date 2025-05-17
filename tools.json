@@ -9,24 +9,6 @@
     "addedBy": "a1-library-admin"
   },  
   {
-    "name": "Example",
-    "description": "exaaaaaaaaaaaample.",
-    "url": "https://example.com",
-    "category": "LLM",
-    "tags": ["conversational", "text generation", "content creation", "OpenAI", "writing", "research"],
-    "dateAdded": "2025-05-17",
-    "addedBy": "example"
-  },
-    {
-    "name": "ExampleABC",
-    "description": "exaaaaaaaaaaaample.",
-    "url": "https://example.com",
-    "category": "LLM",
-    "tags": ["conversational", "text generation", "content creation", "OpenAI", "writing", "research"],
-    "dateAdded": "2025-05-17",
-    "addedBy": "example"
-  },
-  {
     "name": "Claude",
     "description": "An advanced AI assistant by Anthropic that excels in natural conversation, document analysis, and creative content generation with enhanced capabilities for screen understanding and code generation.",
     "url": "https://claude.ai",
