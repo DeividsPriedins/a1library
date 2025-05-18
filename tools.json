@@ -1,4 +1,13 @@
-[
+[  
+  {
+    "name": "0021321231",
+    "description": "A versatile AI language model by OpenAI that engages in human-like conversation, assists with writing tasks, answers questions, and helps with creative content generation across multiple languages.",
+    "url": "https://chat.openai.com",
+    "category": "LLM",
+    "tags": ["conversational", "text generation", "content creation", "OpenAI", "writing", "research"],
+    "dateAdded": "2025-03-04",
+    "addedBy": "a1-library-admin"
+  },  
   {
     "name": "ChatGPT",
     "description": "A versatile AI language model by OpenAI that engages in human-like conversation, assists with writing tasks, answers questions, and helps with creative content generation across multiple languages.",
