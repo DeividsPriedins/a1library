@@ -1,1 +1,221 @@
-
+[
+  {
+    "title": "Expert Explainer",
+    "description": "Transforms complex topics into clear, accessible explanations tailored to specific knowledge levels",
+    "prompt_text": "I want you to explain [TOPIC] as if you're a world expert communicating to someone with [KNOWLEDGE_LEVEL] understanding. Break down complex concepts, use appropriate analogies, and explain any necessary terminology. Make the explanation [LENGTH] and focus particularly on [SPECIFIC_ASPECT]. If relevant, include practical applications or examples.",
+    "model": "any",
+    "category": "Education & Learning",
+    "complexity": "intermediate",
+    "purpose": "Explanation",
+    "use_case": "Educational",
+    "model_compatibility": ["gpt-4", "gpt-3.5-turbo", "claude-3-opus", "claude-3-sonnet", "claude-3-haiku", "llama-2", "mistral"],
+    "example_output": "Quantum Entanglement: Imagine two particles that are connected in such a way that the quantum state of each particle cannot be described independently of the state of the other...",
+    "tips": "For 'KNOWLEDGE_LEVEL', use terms like 'beginner', 'high school student', 'undergraduate', or 'graduate level'. For specialized topics, specify if you want mathematical formulas included.",
+    "author": "Universal Prompts Team",
+    "tags": ["education", "explanation", "knowledge", "learning"],
+    "variations": [
+      "Explain [TOPIC] to me like I'm [AGE/PROFESSION]. Focus specifically on [SPECIFIC_ASPECT] and keep it [LENGTH].",
+      "I need to understand [TOPIC] for a [PURPOSE]. Explain it at a [KNOWLEDGE_LEVEL] level with relevant examples."
+    ]
+  },
+  
+  {
+    "title": "Structured Decision Analysis",
+    "description": "Provides a comprehensive framework for analyzing complex decisions with multiple factors",
+    "prompt_text": "I need to make a decision about [DECISION]. Help me analyze this systematically by:\n1. Identifying all key factors to consider\n2. Evaluating pros and cons of each option: [OPTION_1], [OPTION_2], etc.\n3. Analyzing potential risks and how to mitigate them\n4. Suggesting decision criteria and weighting\n5. Providing a structured recommendation based on this analysis\n\nWhere relevant, include considerations about [SPECIFIC_CONCERNS] and timeframe of [TIMEFRAME].",
+    "model": "any",
+    "category": "Problem Solving & Decision Making",
+    "complexity": "advanced",
+    "purpose": "Analysis",
+    "use_case": "Practical",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2"],
+    "example_output": "Decision Analysis: Home Purchase\n\nKey Factors:\n1. Financial considerations (budget, mortgage rates, down payment)\n2. Location factors (neighborhood, schools, commute)...",
+    "tips": "Be specific about options and concerns. The more detailed your parameters, the more tailored the analysis will be.",
+    "author": "Decision Sciences Group",
+    "tags": ["decision-making", "analysis", "problem-solving", "strategic-thinking"],
+    "variations": [
+      "I'm trying to decide between [OPTION_1] and [OPTION_2] for [CONTEXT]. Create a decision matrix comparing them across these criteria: [CRITERIA_LIST].",
+      "Help me think through [DECISION] using a SWOT analysis for each option, considering [SPECIFIC_CONSTRAINTS]."
+    ]
+  },
+  
+  {
+    "title": "Comprehensive Research Planner",
+    "description": "Creates detailed research plans for academic or professional topics",
+    "prompt_text": "I'm researching [RESEARCH_TOPIC] for [PURPOSE]. Create a comprehensive research plan including:\n\n1. Key research questions to investigate\n2. Suggested methodologies appropriate for this topic\n3. Types of sources to consult (academic, industry, etc.)\n4. Potential challenges and how to address them\n5. A timeline for completing different research phases\n6. Areas where expert consultation might be needed\n\nThe research depth should be suitable for [ACADEMIC_LEVEL] and should consider [SPECIFIC_CONSTRAINTS].",
+    "model": "any",
+    "category": "Research & Academia",
+    "complexity": "advanced",
+    "purpose": "Planning",
+    "use_case": "Academic",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2"],
+    "example_output": "Research Plan: Impact of Remote Work on Urban Development\n\nResearch Questions:\n1. How has the increase in remote work affected commercial real estate values in urban centers?\n2. What demographic shifts have occurred in suburban vs. urban areas since the rise of remote work?...",
+    "tips": "Specify whether this is for academic research, market research, or personal learning to get appropriate methodology suggestions.",
+    "author": "Academic Excellence Center",
+    "tags": ["research", "methodology", "academic", "planning"],
+    "variations": [
+      "Design a [LENGTH] research strategy for investigating [TOPIC] with [RESOURCES_AVAILABLE]. Include key hypotheses and data collection methods.",
+      "I need to write a [PAPER_TYPE] on [TOPIC]. Create a research roadmap including literature review focus areas and methodology suggestions."
+    ]
+  },
+  
+  {
+    "title": "Product Review Analyzer",
+    "description": "Extracts structured insights from multiple product reviews",
+    "prompt_text": "I want you to analyze these [PRODUCT] reviews and provide a structured assessment:\n\n[PASTE_REVIEWS_HERE]\n\nPlease extract and organize the following:\n1. Overall sentiment (positive/negative/mixed)\n2. Most frequently mentioned positive features\n3. Most common complaints or issues\n4. Feature-specific ratings (ease of use, quality, value, etc.)\n5. User demographic patterns if detectable\n6. Suggested improvements based on user feedback\n\nPresent this as a concise report that would help someone make an informed purchasing decision.",
+    "model": "any",
+    "category": "Data Analysis",
+    "complexity": "intermediate",
+    "purpose": "Analysis",
+    "use_case": "Consumer",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2", "mistral"],
+    "example_output": "Analysis of Sony WH-1000XM4 Headphones Reviews\n\nOverall Sentiment: Strongly Positive (85% positive mentions)\n\nTop Praised Features:\n1. Noise cancellation (mentioned in 92% of positive reviews)\n2. Battery life (mentioned in 78% of positive reviews)...",
+    "tips": "Include at least 5-10 different reviews for meaningful analysis. For best results, use reviews of varying ratings (1-5 stars).",
+    "author": "Consumer Insights Team",
+    "tags": ["product-review", "sentiment-analysis", "consumer-research", "market-research"],
+    "variations": [
+      "Compare user reviews for [PRODUCT_A] and [PRODUCT_B]. Identify key differentiators and which product performs better in [SPECIFIC_CATEGORIES].",
+      "Analyze these [PRODUCT_CATEGORY] reviews from [SOURCE] and extract the most important factors that influence customer satisfaction."
+    ]
+  },
+  
+  {
+    "title": "Code Refactoring Assistant",
+    "description": "Optimizes existing code for better performance, readability, and maintainability",
+    "prompt_text": "Refactor this [LANGUAGE] code to improve its [FOCUS_AREA] while maintaining all functionality:\n\n```[LANGUAGE]\n[PASTE_CODE_HERE]\n```\n\nSpecifically focus on:\n1. [SPECIFIC_ISSUE_1] (e.g., performance bottlenecks, error handling)\n2. [SPECIFIC_ISSUE_2] (e.g., code duplication, excessive complexity)\n\nExplain your changes and why they improve the code. If you see any potential bugs or edge cases in the original code, address those as well.",
+    "model": "any",
+    "category": "Programming & Development",
+    "complexity": "advanced",
+    "purpose": "Optimization",
+    "use_case": "Technical",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2"],
+    "example_output": "Refactored Python Function\n\nOriginal issues:\n- Inefficient list operations with O(n²) complexity\n- No error handling for edge cases\n- Poor variable naming\n\nRefactored code:\n```python\ndef process_data(items, threshold=0.5):\n    if not items:\n        return []\n        \n    # Using list comprehension instead of multiple append operations\n    filtered_items = [item for item in items if item.value > threshold]\n    ...\n```",
+    "tips": "Specify your priority (speed, memory usage, readability, etc.) for better results. Include comments in your original code to highlight areas of concern.",
+    "author": "Clean Code Collective",
+    "tags": ["code-optimization", "refactoring", "software-development", "programming"],
+    "variations": [
+      "Review this [LANGUAGE] code for security vulnerabilities and refactor it to follow security best practices while preserving functionality.",
+      "Optimize this [LANGUAGE] function for [PERFORMANCE_METRIC]. It currently takes [CURRENT_PERFORMANCE] but needs to achieve [TARGET_PERFORMANCE]."
+    ]
+  },
+  
+  {
+    "title": "Comprehensive Comparative Analysis",
+    "description": "Creates detailed side-by-side comparisons of products, concepts, or approaches",
+    "prompt_text": "Create a comprehensive comparison between [ITEM_1] and [ITEM_2] for someone looking to [PURPOSE]. Include:\n\n1. Core differences in functionality/features/principles\n2. Specific strengths and weaknesses of each\n3. Cost considerations (if applicable)\n4. Learning curve or implementation difficulty\n5. Best use cases for each option\n6. Future outlook/development trajectory\n7. Expert opinions or market position\n\nPresent this in a balanced way that highlights which option would be better for specific needs or contexts.",
+    "model": "any",
+    "category": "Research & Analysis",
+    "complexity": "advanced",
+    "purpose": "Comparison",
+    "use_case": "Decision Support",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2"],
+    "example_output": "React vs. Angular: Comprehensive Comparison\n\nCore Differences:\nReact is a JavaScript library focused on UI components, while Angular is a complete MVC framework. React uses a virtual DOM for performance optimization, whereas Angular employs real DOM with change detection...",
+    "tips": "For technical comparisons, specify your expertise level. For product comparisons, mention key features you're particularly interested in evaluating.",
+    "author": "Strategic Analysis Group",
+    "tags": ["comparison", "analysis", "decision-support", "evaluation"],
+    "variations": [
+      "Compare [APPROACH_1] vs [APPROACH_2] for solving [PROBLEM] in terms of efficiency, resource requirements, and outcomes.",
+      "Create a buyer's guide comparing [PRODUCT_CATEGORY] options ([OPTION_1], [OPTION_2], [OPTION_3]) across [CRITERIA_LIST]."
+    ]
+  },
+  
+  {
+    "title": "Strategic Business Plan Generator",
+    "description": "Creates customized business plans with actionable strategies",
+    "prompt_text": "Create a strategic business plan for a [BUSINESS_TYPE] focusing on [SPECIFIC_GOAL]. The business is currently [CURRENT_STATE] and operates in [MARKET/LOCATION] with [TARGET_AUDIENCE] as the primary customer base.\n\nInclude the following sections:\n1. Executive Summary\n2. Market Analysis (including competition)\n3. Product/Service Strategy\n4. Marketing and Sales Approach\n5. Operations Plan\n6. Financial Projections (high-level)\n7. Key Performance Indicators\n8. Risk Assessment and Mitigation\n9. Implementation Timeline\n\nThe plan should account for [CONSTRAINTS/CHALLENGES] and prioritize [VALUES/PRIORITIES].",
+    "model": "any",
+    "category": "Business & Strategy",
+    "complexity": "advanced",
+    "purpose": "Planning",
+    "use_case": "Business",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo"],
+    "example_output": "Strategic Business Plan: Farm-to-Table Restaurant Expansion\n\nExecutive Summary:\nFresh Harvest is seeking to expand from one to three locations within the next 24 months. This plan outlines a sustainable growth strategy that maintains our commitment to local sourcing while achieving 120% revenue growth...",
+    "tips": "Be specific about your current business stage, resources, and constraints. Mention any industry regulations or technological considerations that might affect the business.",
+    "author": "Business Strategy Institute",
+    "tags": ["business-plan", "strategy", "entrepreneurship", "market-analysis"],
+    "variations": [
+      "Develop a go-to-market strategy for [PRODUCT] targeting [MARKET_SEGMENT] with a budget of [BUDGET] and timeline of [TIMELINE].",
+      "Create a pivot plan for [EXISTING_BUSINESS] to adapt to [MARKET_CHANGE] while retaining [CORE_STRENGTHS]."
+    ]
+  },
+  
+  {
+    "title": "Step-by-Step Skill Tutorial",
+    "description": "Creates detailed instructions for learning practical skills",
+    "prompt_text": "Create a comprehensive tutorial for learning [SKILL] from [STARTING_LEVEL] to [TARGET_LEVEL]. The learner has [AVAILABLE_TIME] per week to practice and access to [AVAILABLE_RESOURCES].\n\nStructure this as:\n1. Introduction to the skill and its benefits\n2. Required prerequisites and preparation\n3. Progressive learning path broken into clear stages\n4. Step-by-step practice exercises for each stage\n5. Common mistakes and how to avoid them\n6. Ways to measure progress\n7. Advanced techniques once fundamentals are mastered\n8. Recommended resources for continued learning\n\nMake this tutorial [TONE] and suitable for someone with [LEARNING_STYLE].",
+    "model": "any",
+    "category": "Education & Learning",
+    "complexity": "intermediate",
+    "purpose": "Instruction",
+    "use_case": "Skill Development",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2", "mistral"],
+    "example_output": "Learning Digital Photography: From Beginner to Intermediate\n\nIntroduction:\nDigital photography combines technical knowledge with artistic vision. This tutorial will take you from understanding basic camera functions to creating compelling compositions with appropriate exposure and post-processing...",
+    "tips": "For physical skills, specify whether you have access to specific equipment. For technical skills, mention your background in related areas.",
+    "author": "Learning Pathways Collective",
+    "tags": ["tutorial", "learning", "skill-development", "education"],
+    "variations": [
+      "Create a [TIMEFRAME] learning plan for mastering [SKILL] with daily practice exercises and weekly milestones.",
+      "Design a tutorial for teaching [SKILL] to [AUDIENCE], focusing on practical applications for [CONTEXT]."
+    ]
+  },
+  
+  {
+    "title": "Content Repurposing Strategy",
+    "description": "Transforms existing content into multiple formats for different platforms",
+    "prompt_text": "I have the following [CONTENT_TYPE] about [TOPIC]:\n\n[PASTE_CONTENT_HERE]\n\nCreate a comprehensive content repurposing strategy to maximize reach across multiple platforms. For each platform, provide:\n\n1. Recommended content format and length\n2. Key points to emphasize\n3. Platform-specific best practices\n4. Engagement hooks appropriate for the platform\n5. Call-to-action suggestions\n\nInclude strategies for: [PLATFORM_LIST] and focus on engaging [TARGET_AUDIENCE].",
+    "model": "any",
+    "category": "Marketing & Communication",
+    "complexity": "intermediate",
+    "purpose": "Strategy",
+    "use_case": "Marketing",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2"],
+    "example_output": "Content Repurposing Strategy: \"Sustainable Investing\" Blog Post\n\nLinkedIn:\n- Format: Carousel post (8-10 slides)\n- Key points: Industry statistics, actionable investment criteria, expert quotes\n- Best practices: Professional tone, data visualization, industry hashtags...",
+    "tips": "Include your initial content in full. Specify which platforms are highest priority for your strategy. Mention any brand voice guidelines to maintain consistency.",
+    "author": "Digital Marketing Strategists",
+    "tags": ["content-marketing", "digital-strategy", "social-media", "repurposing"],
+    "variations": [
+      "Transform my [CONTENT_TYPE] into a multi-channel campaign for [BUSINESS_OBJECTIVE] targeting [AUDIENCE_SEGMENTS].",
+      "Create a content atomization plan for my [LONG_FORM_CONTENT] with specific implementations for [PLATFORM_LIST]."
+    ]
+  },
+  
+  {
+    "title": "Ethical Dilemma Analyzer",
+    "description": "Provides balanced ethical analysis of complex situations",
+    "prompt_text": "Analyze the following ethical dilemma from multiple perspectives:\n\n[DESCRIBE_SITUATION]\n\nProvide a structured ethical analysis including:\n1. Key ethical principles at stake\n2. Stakeholder analysis (who is affected and how)\n3. Arguments from at least 3 ethical frameworks (e.g., consequentialism, deontology, virtue ethics, care ethics)\n4. Potential compromises or third options\n5. Historical or contemporary parallels\n6. Questions that might clarify or reframe the dilemma\n\nPresent this analysis in a balanced way that respects different cultural and philosophical viewpoints without advocating for a single 'correct' answer.",
+    "model": "any",
+    "category": "Philosophy & Ethics",
+    "complexity": "advanced",
+    "purpose": "Analysis",
+    "use_case": "Ethical Reasoning",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo", "llama-2"],
+    "example_output": "Ethical Analysis: Medical Resource Allocation During Shortage\n\nKey Ethical Principles:\n- Justice (fair distribution)\n- Utility (maximum benefit)\n- Respect for autonomy\n- Non-maleficence (avoiding harm)...",
+    "tips": "Provide as much context as possible about the situation. If the dilemma involves specific professional fields (medicine, law, business), mention this for more relevant analysis.",
+    "author": "Applied Ethics Initiative",
+    "tags": ["ethics", "philosophy", "decision-making", "moral-reasoning"],
+    "variations": [
+      "Analyze [SCENARIO] using these specific ethical frameworks: [FRAMEWORK_LIST]. Include cultural perspectives from [CULTURAL_CONTEXTS].",
+      "Provide an ethical decision-making framework for [PROFESSION] facing [DILEMMA_TYPE] situations, with case examples."
+    ]
+  },
+  
+  {
+    "title": "Scientific Experiment Designer",
+    "description": "Creates detailed experimental protocols for testing hypotheses",
+    "prompt_text": "Design a scientific experiment to test the hypothesis: [HYPOTHESIS]\n\nThe research question is: [RESEARCH_QUESTION]\n\nCreate a comprehensive experimental protocol including:\n1. Background and rationale\n2. Materials and methods in detail\n3. Experimental design (including controls, variables, and replication)\n4. Data collection methodology\n5. Statistical analysis approach\n6. Potential confounding factors and how to address them\n7. Expected results and interpretation\n8. Limitations and future directions\n\nThis experiment should be appropriate for [SETTING] with [RESOURCE_CONSTRAINTS] and should follow ethical guidelines for [FIELD].",
+    "model": "any",
+    "category": "Science & Research",
+    "complexity": "advanced",
+    "purpose": "Design",
+    "use_case": "Scientific",
+    "model_compatibility": ["gpt-4", "claude-3-opus", "claude-3-sonnet", "gpt-3.5-turbo"],
+    "example_output": "Experimental Protocol: Effects of Microplastic Exposure on Freshwater Invertebrates\n\nBackground and Rationale:\nMicroplastics are increasingly prevalent in freshwater ecosystems, yet their impact on invertebrate health and behavior remains poorly understood...",
+    "tips": "Be specific about your resource constraints and facility capabilities. For field experiments, mention environmental conditions and seasonality considerations.",
+    "author": "Research Methods Collaborative",
+    "tags": ["science", "research-design", "experiment", "methodology"],
+    "variations": [
+      "Design a [STUDY_TYPE] to investigate the relationship between [VARIABLE_1] and [VARIABLE_2] in [POPULATION].",
+      "Create a protocol for a pilot study testing [HYPOTHESIS] that can be completed with [BUDGET] and [TIMEFRAME]."
+    ]
+  }
+]
